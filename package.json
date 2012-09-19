@@ -1,0 +1,28 @@
+{
+  "name": "nodify-redirector",
+  "description": "URL shortener / redirector connect.js middleware",
+  "maintainers": [
+    {
+      "name": "Meadhbh Hamrick",
+      "email": "meadhbh@smithee.us",
+      "web": "http://nodify.us/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nodify/nodify-redirector/raw/master/LICENSE"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/nodify/nodify-redirector"
+    }
+  ],     
+  "directories": [ "test", "example" ],
+  "version": "0.0.1",
+  "main": "./nodify-redirector.js",
+  "bin": { "nodify_load_db": "./bin/nodify_load_db" },
+  "keywords": [ "url shortener", "url redirector" ]
+}

@@ -1,0 +1,266 @@
+body {
+    padding-top: 60px;
+    overflow-y: scroll;
+}
+
+p {
+    margin-top: .25em;
+}
+
+dt {
+    font-size: 18px;
+    margin-top: .25em;
+    margin-bottom: .75em;
+}
+
+.front {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1.25em;
+}
+
+.login-text {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.nav-home-logo {
+    width: 105px;
+    height: 20px;
+}
+
+.fire {
+    border: 1px solid red;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    background-color: rgba( 0,0,0,0.5 );
+    padding: 6px;
+}
+
+.grey-text {
+    color: #F5F5F5;
+}
+
+.text-input {
+    height: 20px;
+    border: 2px solid;
+}
+
+.text-email {
+    position: relative;
+    width: 261px;
+}
+
+.text-password {
+    position: relative;
+    width: 180px;
+}
+
+.button-login {
+    padding: 0px;
+    margin-bottom: 9px;
+    margin-right: 0px;
+    border: 2px solid #555;
+    width: 71px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.front-welcome {
+    position: relative;
+    display: block;
+    height: 453px;
+    background-image:url('/img/fire.jpg');
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.front-local {
+    padding: 13px;
+    margin-bottom: 20px;
+    background-color: #FCCA83;
+    height: 96px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.front-explain {
+    padding: 13px;
+    margin-bottom: 20px;
+    background-color: #FCCA83;
+    height: 286px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.message-unit {
+  padding: 4px;
+  margin-bottom: 30px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #e1e1e8;
+}
+
+.folder-list {
+    height: 790px;
+}
+
+.message-list {
+    overflow-y: scroll;
+    height: 240px;
+}
+
+.message-body {
+    height: 540px;
+}
+
+.col-message {
+    width: 46px;
+    border-right: 1px solid #e1e1e8;
+    text-align: center;
+}
+
+.col-from {
+    width: 160px;
+    border-right: 1px solid #e1e1e8;
+}
+
+.col-to {
+    width: 160px;
+    border-right: 1px solid #e1e1e8;
+}
+
+.col-topic {
+}
+
+.col-body {
+    width: 60px;
+    border-right: 1px solid #e1e1e8;
+}
+
+.msg-message {
+    align-text: center;
+}
+
+.icon-transparent {
+    opacity: 0.15;
+    filter:alpha(opacity=15);
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.text-body {
+    margin: 0px;
+    width: 98%;
+    height: 400px;
+    resize: none;
+}
+
+.front-alert-area {
+    margin-bottom: 20px;
+    height: 36px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.navbar .nav > li > span > a > img {
+    border: 2px solid #555;
+    margin: 4px 2px 4px 2px;
+    height: 30px;
+    width: 30px;
+}
+
+.copy-center{
+    width: 100%;
+    text-align: center;
+    font-size: 80%;
+}
+
+.front-tab {
+    text-align: center;
+    width: 100%;
+}
+
+.front-imgthing {
+    padding-top: 1px;
+}
+
+.front-image {
+    height: 204px;
+    width: 204px;
+    border: 2px solid white;
+}
+
+.front-bigtext {
+    font-size:  96px;
+    color: white;
+}
+
+h2.front {
+    text-align: center;
+    color: white;
+}
+
+.front-unit {
+    background-color: #6BC4C2;
+}
+
+.marketing {
+    text-align: center;
+}
+
+.marketing h1 {
+    font-size: 48px;
+}
+
+.marketing h2 {
+    font-size: 30px;
+}
+
+.front-error-image {
+    position: relative;
+    display: block;
+    height: 160px;
+    background-image:url('/img/fail.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.front-error-status {
+    position: relative;
+    display: block;
+    height: 160px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #6bc4c2;
+    text-align: center;
+    font-size: 160px;
+    line-height: 160px;
+}

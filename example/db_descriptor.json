@@ -1,0 +1,31 @@
+{
+  "url": {
+    "items": {
+      "uuid": "VARCHAR(36)",
+      "host": "VARCHAR(20)",
+      "shortcode": "VARCHAR(20)",
+      "url": "VARCHAR(320)"
+    },
+    "key": "uuid",
+    "select": {
+      "HostAndCode": [ "host", "shortcode" ]
+    },
+    "insert": [
+      {
+        "host": "example.com:8023",
+        "shortcode": "MEADHBH",
+        "url": "http://www.meadhbh.org/"
+      },
+      {
+        "host": "example.com:8023",
+        "shortcode": "SMITHEE",
+        "url": "http://smithee.us/"
+      }, 
+      {
+        "host": "example.com:8023",
+        "shortcode": "NODIFY",
+        "url": "http://nodify.us/"
+      }
+    ]
+  }
+}

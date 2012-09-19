@@ -1,0 +1,35 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "user": "",
+    "pass": "",
+    "db": "redirector_test",
+    "populate": true,
+    "descriptorPath": "db_descriptor.json"
+  },
+  "info": {
+    "title": "redirector test",
+    "subtitle": "monetizing your synergy moving forward",
+    "copy": "Copyright &copy; 2011-2012 <a href=\"http://www.smithee.us/\">Smithee, Spelvin, Agnew &amp; Plinge, Inc.</a>, All Rights Reserved.<br/>See <a href=\"https://raw.github.com/nodify/nodify-redirector/master/LICENSE\"></a> for license info",
+    "base": "http://example.com:8023/"
+  },
+  "favicon": {
+    "path": "static/favicon.ico"
+  },
+  "access": {
+    "path": "access.csv",
+    "format": "\":date\",\":req[x-forwarded-for]\",\":method\",\":status\",\":req[host]\",\":url\",\":referrer\",\":user-agent\""
+  },
+  "static": {
+    "path": "static",
+    "maxAge": 14400000
+  },
+  "views": {
+    "path": "views",
+    "engine": "hbs"
+  },
+  "router": true,
+  "listen": {
+    "port": 8023
+  }
+}

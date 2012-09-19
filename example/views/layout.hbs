@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{site/title}}</title>
+    <meta name="viewport" content="width=980, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="{{site/title}} : {{site/subtitle}}">
+    <meta name="author" content="Meadhbh S. Hamrick">
+    <base href="{{site/base}}">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/touch-icon-iphone4.png">
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/css/other.css">
+    {{#if session}}<link rel="session" id="session" data="{{session}}">{{/if}}
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>    
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+	  <a class="brand" href="/">{{site/title}}</a>
+          {{#if session}}
+	  <ul class="nav pull-right">
+            <li><a href="#">Log Out</a></li>
+	  </ul>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+
+    {{{body}}}
+
+    <div class="navbar navbar-fixed-bottom">
+      <div class="navbar-inner">
+	<div class="container">
+	  <div class="copy-center">{{{site/copy}}}</div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
